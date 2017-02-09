@@ -3,7 +3,9 @@
  body {
   padding-top: 55px;
   background: image_url('bg.png');
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  /*font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
  }
 
  h1, h2, h3, h4, h5, h6, .navbar {
@@ -24,7 +26,7 @@
 }
 
 .hero {
-  background: image_url('hero.jpg') no-repeat center center fixed;
+  background: image_url('hero.jpg') no-repeat center center;
   background-size: contain;
   -webkit-background-size: cover;
   -moz-background-size: cover;
