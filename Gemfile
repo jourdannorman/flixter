@@ -49,9 +49,13 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Bootstrap
 gem 'bootstrap', '~> 4.0.0.alpha5'
-
 # SimpleForm
 gem 'simple_form'
-
 # Devise
 gem 'devise'
+# Image Uploading - CarrierWave
+gem 'carrierwave', '~> 1.0'
+# Figaro
+gem "figaro"
+# Fog
+gem "fog"

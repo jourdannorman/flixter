@@ -1,6 +1,7 @@
 class Course < ApplicationRecord
   belongs_to :user
   has_many :sections
+  mount_uploader :image, ImageUploader
 
   validates :title, :presence => { :message => "Course title is required" }
   validates :description, :presence => { :message => "Description is required" }
