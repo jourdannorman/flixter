@@ -59,3 +59,5 @@ gem 'carrierwave', '~> 1.0'
 gem "figaro"
 # Fog
 gem "fog"
+# ImageMagick
+gem "mini_magick"
