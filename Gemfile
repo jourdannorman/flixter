@@ -57,12 +57,5 @@ gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'carrierwave-aws'
-
-# HERE ARE THE DELETED ITEMS
-# gem 'carrierwave', '~> 1.0'
-# # Figaro
-# gem "figaro"
-# # Fog
-# gem "fog"
-# # ImageMagick
-# gem "mini_magick"
+gem "figaro"
+gem "fog"
