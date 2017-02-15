@@ -53,11 +53,15 @@ gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'simple_form'
 # Devise
 gem 'devise'
-# Image Uploading - CarrierWave
-gem 'carrierwave', '~> 1.0'
-# Figaro
-gem "figaro"
-# Fog
-gem "fog"
-# ImageMagick
-gem "mini_magick"
+# Image Uploading & Video Streaming
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'carrierwave-aws'
+
+# gem 'carrierwave', '~> 1.0'
+# # Figaro
+# gem "figaro"
+# # Fog
+# gem "fog"
+# # ImageMagick
+# gem "mini_magick"
