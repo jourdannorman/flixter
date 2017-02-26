@@ -61,3 +61,5 @@ gem "figaro"
 gem "fog"
 # Payments
 gem 'stripe'
+# Database Ordering
+gem 'ranked-model'
