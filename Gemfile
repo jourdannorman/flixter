@@ -63,3 +63,5 @@ gem "fog"
 gem 'stripe'
 # Database Ordering
 gem 'ranked-model'
+# jQuery UI
+gem 'jquery-ui-rails'
